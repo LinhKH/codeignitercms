@@ -26,6 +26,10 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo base_url(); ?>product_filter/">Product</a></li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo base_url(); ?>multiple_delete/">Employees</a></li>
                 <?php foreach ($menu_items as $item) : ?>
                     <li class="nav-item active"><a class="nav-link" href="<?php echo base_url(); ?>articles/view/<?php echo $item->id; ?>"><?php echo $item->title; ?></a></li>
                 <?php endforeach; ?>
